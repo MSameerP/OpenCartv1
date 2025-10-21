@@ -8,7 +8,6 @@ public class HomePage extends BasePage{
 
 	public HomePage(WebDriver driver) {
 		super(driver);
-		
 	}
 	
 	@FindBy(xpath = "//a[@title='My Account']") WebElement lnkMyAccount;
